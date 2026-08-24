@@ -551,10 +551,10 @@ I'm open to connecting with:
 https://www.linkedin.com/
 
 **GitHub:**
-https://github.com/YOUR_USERNAME
+https://github.com/iamsoumyajitmandal
 
 **Portfolio:**
-https://pixeldesigns.onrender.com/
+https://soumyajitmandal.onrender.com/
 
 ---
 
