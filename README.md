@@ -475,7 +475,7 @@ My long-term goal is to work on **high-performance analog and mixed-signal integ
 # 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=transparent&hide_border=true&count_private=true" height="165">
+  <img src="https://github-readme-stats.vercel.app/api?username=iamsoumyajitmandal&show_icons=true&theme=transparent&hide_border=true&count_private=true" height="165">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsoumyajitmandal&layout=compact&theme=transparent&hide_border=true" height="165">
 </p>
 
