@@ -472,11 +472,19 @@ My long-term goal is to work on **high-performance analog and mixed-signal integ
 
 ---
 
-# 📈 GitHub Stats
+# 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamsoumyajitmandal&show_icons=true&theme=transparent&hide_border=true&count_private=true" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsoumyajitmandal&layout=compact&theme=transparent&hide_border=true" height="165">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=iamsoumyajitmandal&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true"
+    height="180"
+    alt="Soumyajit's GitHub Stats"
+  />
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsoumyajitmandal&layout=compact&langs_count=8&hide_border=true"
+    height="180"
+    alt="Soumyajit's Top Languages"
+  />
 </p>
 
 ---
@@ -484,7 +492,21 @@ My long-term goal is to work on **high-performance analog and mixed-signal integ
 # 🔥 GitHub Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=iamsoumyajitmandal&theme=transparent&hide_border=true" />
+  <img
+    src="https://streak-stats.demolab.com/?user=iamsoumyajitmandal&hide_border=true"
+    alt="Soumyajit's GitHub Streak"
+  />
+</p>
+
+---
+
+# 📈 GitHub Activity
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=iamsoumyajitmandal&hide_border=true&area=true"
+    alt="Soumyajit's GitHub Activity Graph"
+  />
 </p>
 
 ---
