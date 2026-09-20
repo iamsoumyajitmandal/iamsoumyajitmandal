@@ -37,23 +37,22 @@
     </td>
     <td valign="top">
 <pre>
-soumyajit@mandal
--------------------
-Role:........ Analog & Mixed-Signal IC Design Engineer
-Location:.... Malda, West Bengal, India
-Institution:. Defence Institute of Advanced Technology, DRDO
-Focus:....... Transistor-level CMOS, PLL, Physical Design
-EDA Tools:... Cadence Virtuoso, Synopsys, Altium, KiCad
-Nodes:....... GPDK45, GPDK090, TSMC130, SkyWater130
+soumyajit@mandal -----------------------------------------------------
+. Role: ....................... Analog & Mixed-Signal IC Design Eng.
+. Location: .............................. Malda, West Bengal, India
+. Institution: .......... Defence Institute of Advanced Tech., DRDO
+. Focus: ................. Transistor-level CMOS, PLL, Physical Design
+. EDA Tools: ................. Cadence Virtuoso, Synopsys, Altium, KiCad
+. Nodes: ...................... GPDK45, GPDK090, TSMC130, SkyWater130
 
-Languages.Scripting:. Python, MATLAB
-Languages.Hardware:.. Verilog, VHDL, SystemVerilog
-Languages.Real:...... English, Bengali, Hindi
+. Languages.Scripting: .............................. Python, MATLAB
+. Languages.Hardware: .................... Verilog, VHDL, SystemVerilog
+. Languages.Real: ........................... English, Bengali, Hindi
 
-- Contact -
-Email.Personal:...... contact.isoumyajitmandal@gmail.com
-LinkedIn:............ soumyajitmandal001
-Portfolio:........... soumyajitmandal.onrender.com
+- Contact ------------------------------------------------------------
+. Email.Personal: ................. contact.isoumyajitmandal@gmail.com
+. LinkedIn: ..................................... soumyajitmandal001
+. Portfolio: .......................... soumyajitmandal.onrender.com
 </pre>
     </td>
   </tr>
