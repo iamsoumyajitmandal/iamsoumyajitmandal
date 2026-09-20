@@ -1,405 +1,281 @@
 <div align="center">
 
+<img src="./assets/ascii-art.png" width="620" alt="Soumyajit Mandal ASCII portrait"/>
+
 SOUMYAJIT MANDAL
-Analog IC Design · Mixed-Signal VLSI · Custom Analog Layout
+Analog IC Design Engineer · VLSI · Custom Analog Layout
+Transistor-Level CMOS · PLL / VCO / PFD · Circuit Simulation · Physical Verification
+
 <a href="https://soumyajitmandal.onrender.com">
-  <img src="https://img.shields.io/badge/Portfolio-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Portfolio"/>
+<img src="https://img.shields.io/badge/Portfolio-0B0F14?style=for-the-badge&logo=googlechrome&logoColor=00E5FF" alt="Portfolio">
 </a>
 <a href="https://linkedin.com/in/soumyajitmandal001/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+<img src="https://img.shields.io/badge/LinkedIn-0B0F14?style=for-the-badge&logo=linkedin&logoColor=0A66C2" alt="LinkedIn">
 </a>
 <a href="mailto:contact.isoumyajitmandal@gmail.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+<img src="https://img.shields.io/badge/Email-0B0F14?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email">
 </a>
-
-
-
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=2600&pause=900&color=00E5FF&center=true&vCenter=true&width=900&lines=Transistor-Level+CMOS+Design;PLL+%7C+VCO+%7C+PFD+%7C+Frequency+Synthesis;Cadence+Virtuoso+%7C+Spectre+%7C+Custom+Layout;DRC+%7C+ERC+%7C+LVS+%7C+PEX;Schematic+%E2%86%92+Layout+%E2%86%92+Extraction+%E2%86%92+Validation" alt="Typing SVG"/>
 
 </div>
 
 <table>
 <tr>
-<td width="56%" valign="middle">
+<td width="58%" valign="top">
 
-<p align="center">
-  <img src="./assets/ascii-art.png" width="100%" alt="Soumyajit Mandal ASCII art"/>
-</p>
-
+about.me
+I am an Analog & Mixed-Signal IC Design engineer working at the transistor level, with a particular focus on CMOS PLLs, VCOs, PFDs, frequency synthesis and custom analog layout.
+My design interest is not limited to the schematic. I am interested in carrying circuit intent through device sizing → simulation → layout → extraction → post-layout verification.
+Current technical direction
+- Analog / Mixed-Signal IC Design
+- PLL, VCO & PFD architectures
+- Transistor-level CMOS design
+- Custom analog layout & device matching
+- DRC / ERC / LVS / PEX
+- Parasitic-aware post-layout simulation
+- High-frequency clock generation
 </td>
 
-<td width="44%" valign="middle">
+<td width="42%" valign="top">
 
-SYSTEM PROFILE
-┌──────────────────────────────┐
-│ ROLE                         │
-│ Analog IC Design / VLSI      │
-├──────────────────────────────┤
-│ SPECIALIZATION               │
-│ VLSI & Embedded Systems      │
-├──────────────────────────────┤
-│ CORE CIRCUITS                │
-│ PLL · VCO · PFD · CMOS       │
-├──────────────────────────────┤
-│ LAYOUT                       │
-│ Custom Analog / Matching     │
-├──────────────────────────────┤
-│ VERIFICATION                 │
-│ DRC · ERC · LVS · PEX        │
-├──────────────────────────────┤
-│ PRIMARY EDA                  │
-│ Cadence Virtuoso / Spectre   │
-└──────────────────────────────┘
+┌─────────────────────────────┐
+│      ENGINEERING STACK      │
+├─────────────────────────────┤
+│                             │
+│  DOMAIN                     │
+│  Analog IC / VLSI           │
+│                             │
+│  CIRCUITS                   │
+│  PLL · VCO · PFD · CMOS     │
+│                             │
+│  PRIMARY EDA                │
+│  Cadence Virtuoso / Spectre │
+│                             │
+│  LAYOUT                     │
+│  Custom Analog / Matching   │
+│                             │
+│  SIGN-OFF                   │
+│  DRC · ERC · LVS · PEX      │
+│                             │
+│  TECHNOLOGY                 │
+│  45 / 90 / 130 / 180 nm    │
+│                             │
+└─────────────────────────────┘
 </td>
 </tr>
 </table>
 
-I design at the transistor level, verify at the circuit level, and think through the layout-to-silicon path.
-
-01 — ABOUT
-I am an Analog & Mixed-Signal IC Design / Physical Design engineer with a primary focus on transistor-level CMOS circuit design, PLL/VCO/PFD architectures, custom analog layout, and physical verification.
-My engineering workflow is centered around:
-SPECIFICATION
-     │
-     ▼
-ARCHITECTURE
-     │
-     ▼
-TRANSISTOR-LEVEL DESIGN
-     │
-     ▼
-BIASING + SIZING
-     │
-     ▼
-CIRCUIT SIMULATION
-     │
-     ▼
-CUSTOM ANALOG LAYOUT
-     │
-     ▼
-DRC / ERC / LVS
-     │
-     ▼
-PEX
-     │
-     ▼
-POST-LAYOUT VALIDATION
-Primary Interests
-Analog IC Design · Mixed-Signal IC Design · PLL · VCO · PFD · Frequency Synthesis · Clocking Circuits · Custom Analog Layout · Device Matching · DRC/ERC/LVS/PEX
-02 — CORE SKILLS
-<div align="center">
-
-Analog / Mixed-Signal
-<img src="https://img.shields.io/badge/Analog%20CMOS-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Mixed--Signal-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/PLL-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/VCO-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/PFD-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Frequency%20Synthesis-111827?style=for-the-badge" />
-
-Layout / Verification
-<img src="https://img.shields.io/badge/Custom%20Analog%20Layout-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Device%20Matching-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/DRC-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/ERC-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/LVS-111827?style=for-the-badge" />
-<img src="https://img.shields.io/badge/PEX-111827?style=for-the-badge" />
-
-</div>
-
-03 — FEATURED PROJECT
-Enhanced-Stability High-Frequency PLL Architecture
-Defence Institute of Advanced Technology (DIAT), DRDO
-August 2025 – May 2026 · GPDK090 · Cadence Virtuoso / Spectre
-A transistor-level CMOS PLL designed for fine-resolution 2.5–3.8 GHz frequency synthesis.
-Architecture
-                         REFERENCE
-                            │
-                            ▼
-                     ┌─────────────┐
-                     │     PFD     │
-                     └──────┬──────┘
-                            │
-                       UP / DOWN
-                            │
-                            ▼
-                     ┌─────────────┐
-                     │ CHARGE PUMP │
-                     └──────┬──────┘
-                            │
-                            ▼
-                     ┌─────────────┐
-                     │ LOOP FILTER │
-                     └──────┬──────┘
-                            │ VCTRL
-                            ▼
-                     ┌─────────────┐
-                     │ CURRENT-    │
-                     │ STARVED     │
-                     │ VCRO        │
-                     └──────┬──────┘
-                            │
-                            ▼
-                       OUTPUT CLOCK
-                            │
-                            ▼
-                     ┌─────────────┐
-                     │  DIVIDER    │
-                     └──────┬──────┘
-                            │
-                            └──────────────► PFD
-Circuit Contributions
-- Dead-zone-free PFD using balanced latch paths.
-- Optimized reset timing.
-- Buffered UP/DOWN outputs for small phase differences.
-- Matched charge-pump implementation.
-- Passive loop-filter integration.
-- Source-degenerated current-starved VCRO.
-- Feedback divider for closed-loop frequency control.
-- Transistor-level simulation and lock verification.
-Reported Results
-Parameter	Result
+01 · Featured Work
+High-Frequency PLL — Enhanced-Stability Architecture
+DIAT, DRDO · M.Tech Project · GPDK090 · Cadence Virtuoso / Spectre
+A transistor-level CMOS PLL for fine-resolution 2.5–3.8 GHz frequency synthesis, integrating a PFD, charge pump, passive loop filter, source-degenerated current-starved VCRO and feedback divider.
+                 REFERENCE
+                    │
+                    ▼
+              ┌───────────┐
+              │    PFD    │
+              └─────┬─────┘
+                    │ UP / DN
+                    ▼
+              ┌───────────┐
+              │   CP      │
+              └─────┬─────┘
+                    │
+                    ▼
+              ┌───────────┐
+              │ LOOP      │
+              │ FILTER    │
+              └─────┬─────┘
+                    │ VCTRL
+                    ▼
+              ┌───────────┐
+              │ CURRENT-  │
+              │ STARVED   │
+              │ VCRO      │
+              └─────┬─────┘
+                    │
+                    ▼
+                 FOUT
+                    │
+                    ▼
+              ┌───────────┐
+              │ DIVIDER   │
+              └─────┬─────┘
+                    │
+                    └──────────► PFD
+Design work
+- Dead-zone-free PFD with optimized reset timing
+- Balanced latch paths and buffered UP/DOWN outputs
+- Matched charge pump
+- Passive loop filter
+- Source-degenerated current-starved VCRO
+- Closed-loop frequency and jitter analysis
+Reported simulation results
+Metric	Result
 Technology	GPDK090
-Target frequency	2.5–3.8 GHz
-Closed-loop locking	~2.506 GHz
+Target range	2.5–3.8 GHz
+Locked frequency	~2.506 GHz
 Frequency ripple	4.013 MHz
 Normalized ripple	0.160%
-Output duty cycle	49.8%
+Duty cycle	49.8%
 RMS jitter	70.98 fs
 Peak-to-peak jitter	1.588 ps
 
 
-04 — PLL BUILDING BLOCKS
-                    PLL SUBSYSTEM
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-        ▼                ▼                ▼
-       PFD         CHARGE PUMP       LOOP FILTER
-        │                │                │
-        └────────────────┼────────────────┘
-                         │
-                         ▼
-                        VCO
-                         │
-                         ▼
-                      DIVIDER
-                         │
-                         └──────────► FEEDBACK
-PFD
-- Phase and frequency comparison
-- UP/DOWN pulse generation
-- Reset-path optimization
-- Dead-zone reduction
-- Small phase-error detection
-Charge Pump
-- UP/DOWN controlled current paths
-- Current matching
-- Control-voltage generation
-- Interaction with passive loop filter
-Loop Filter
-- Control-voltage smoothing
-- Loop dynamics
-- Ripple suppression
-- VCO control
-VCO / VCRO
-- Voltage-controlled oscillation
-- Current-starved topology
-- Source degeneration
-- Kvco and tuning behavior
-- Frequency stability
-Divider
-- Feedback frequency generation
-- Closed-loop frequency control
-- VCO-to-reference frequency relationship
-05 — PFD & VCO PROJECT
-High-Performance PFDs & VCOs for PLL Applications
-Cooch Behar Government Engineering College
-July 2023 – June 2024 · 90 nm CMOS · Cadence Virtuoso
-Designed and analyzed PFD and VCO circuits at transistor level for PLL applications.
-┌────────────────────────────────────────────────┐
-│              5-STAGE VCRO                      │
-├────────────────────────────────────────────────┤
-│ Technology       : 90 nm CMOS                  │
-│ Tuning Range     : 1.25 MHz – 3 GHz            │
-│                                                 │
-│ PFD Phase Noise  : -143.71 dBc/Hz              │
-│ Offset           : 1 MHz                       │
-│                                                 │
-│ Reported Lock-In : ~31 ns                      │
-└────────────────────────────────────────────────┘
-Work Included
-- 5-stage VCRO design.
-- PFD architecture and reset-path optimization.
-- Dead-zone elimination.
-- Transistor-level simulation.
-- Stability analysis.
-- Power-performance analysis.
-06 — ANALOG IC DESIGN INTERNSHIP
-Basic Analog IC Design Using Cadence Virtuoso
-National Institute of Technology Sikkim
-July 2023 – August 2023
-Worked with GPDK090 technology and Cadence Virtuoso on analog CMOS building blocks.
-SCHEMATIC
-    │
-    ├── Device sizing
-    ├── Biasing
-    └── Operating-point verification
-             │
-             ▼
-       DC / AC / TRANSIENT
-             │
-       ┌─────┼─────┐
-       ▼     ▼     ▼
-      GAIN  BW   WAVEFORM
-       │     │     │
-       └─────┼─────┘
-             ▼
-        OPTIMIZATION
-Focus:
-- Basic analog CMOS building blocks
-- Operating-point verification
-- Gain analysis
-- Bandwidth analysis
-- Bias-condition analysis
-- Transistor-level performance evaluation
-- Circuit optimization and documentation
-07 — EDA TOOLCHAIN
-Analog IC Design
-<p align="center">
-  <img height="52" src="https://cdn.simpleicons.org/cadence" alt="Cadence"/>
-  <img height="52" src="https://img.shields.io/badge/Virtuoso-E31837?style=for-the-badge&logo=cadence&logoColor=white" alt="Cadence Virtuoso"/>
-  <img height="52" src="https://img.shields.io/badge/Spectre-8B1A2B?style=for-the-badge" alt="Cadence Spectre"/>
-  <img height="52" src="https://img.shields.io/badge/LTspice-B71C1C?style=for-the-badge&logo=analogdevices&logoColor=white" alt="LTspice"/>
-  <img height="52" src="https://img.shields.io/badge/PSpice-C41E3A?style=for-the-badge&logo=cadence&logoColor=white" alt="PSpice"/>
+02 · Earlier IC Design Work
+PFDs & VCOs for PLL Applications
+CGEC · B.Tech Project · 90 nm CMOS · Cadence Virtuoso
+Designed and simulated a 5-stage VCRO and PFD architecture for PLL applications.
+Parameter	Reported Result
+VCRO tuning range	1.25 MHz – 3 GHz
+PFD phase noise	−143.71 dBc/Hz @ 1 MHz
+Reported lock-in time	~31 ns
+
+
+Focus: PFD reset-path optimization, dead-zone elimination, transistor-level simulation, stability and power-performance analysis.
+Analog IC Design Internship
+NIT Sikkim · GPDK090 · Cadence Virtuoso
+Worked on analog CMOS building blocks with operating-point, gain, bandwidth and bias-condition analysis.
+03 · Design Flow
+     SPECIFICATION
+           │
+           ▼
+      ARCHITECTURE
+           │
+           ▼
+   TRANSISTOR SIZING
+           │
+           ▼
+      BIAS + DC OP
+           │
+           ▼
+   ┌─────────────────┐
+   │ DC / AC / TRAN  │
+   │ NOISE / PVT     │
+   └────────┬────────┘
+            │
+            ▼
+      CUSTOM LAYOUT
+            │
+            ▼
+       DRC / ERC
+            │
+            ▼
+           LVS
+            │
+            ▼
+           PEX
+            │
+            ▼
+   POST-LAYOUT SIMULATION
+04 · EDA & Engineering Tools
+Analog / SPICE
+<p>
+<img src="https://img.shields.io/badge/Cadence%20Virtuoso-E31837?style=flat-square&logo=cadence&logoColor=white" alt="Cadence Virtuoso">
+<img src="https://img.shields.io/badge/Cadence%20Spectre-8B1A2B?style=flat-square&logo=cadence&logoColor=white" alt="Cadence Spectre">
+<img src="https://img.shields.io/badge/LTspice-B71C1C?style=flat-square&logo=analogdevices&logoColor=white" alt="LTspice">
+<img src="https://img.shields.io/badge/PSpice-C41E3A?style=flat-square&logo=cadence&logoColor=white" alt="PSpice">
 </p>
 
-Synopsys / ASIC
-<p align="center">
-  <img height="52" src="https://cdn.simpleicons.org/synopsys" alt="Synopsys"/>
-  <img height="52" src="https://img.shields.io/badge/VCS-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="Synopsys VCS"/>
-  <img height="52" src="https://img.shields.io/badge/VERDI%20%2F%20NOVAS-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="VERDI NOVAS"/>
-  <img height="52" src="https://img.shields.io/badge/Design%20Compiler-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="Design Compiler"/>
-  <img height="52" src="https://img.shields.io/badge/ICC2-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="ICC2"/>
-  <img height="52" src="https://img.shields.io/badge/PrimeTime-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="PrimeTime"/>
+Synopsys
+<p>
+<img src="https://img.shields.io/badge/VCS-111111?style=flat-square&logo=synopsys&logoColor=white" alt="VCS">
+<img src="https://img.shields.io/badge/VERDI%20%2F%20NOVAS-111111?style=flat-square&logo=synopsys&logoColor=white" alt="VERDI">
+<img src="https://img.shields.io/badge/Design%20Compiler-111111?style=flat-square&logo=synopsys&logoColor=white" alt="Design Compiler">
+<img src="https://img.shields.io/badge/ICC2-111111?style=flat-square&logo=synopsys&logoColor=white" alt="ICC2">
+<img src="https://img.shields.io/badge/PrimeTime-111111?style=flat-square&logo=synopsys&logoColor=white" alt="PrimeTime">
 </p>
 
-Additional Tools
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,matlab,git,github,vscode&perline=5" alt="Python MATLAB Git GitHub VS Code"/>
+Other
+<p>
+<img src="https://img.shields.io/badge/Altium%20Designer-A5915F?style=flat-square&logo=altiumdesigner&logoColor=white" alt="Altium Designer">
+<img src="https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white" alt="KiCad">
+<img src="https://img.shields.io/badge/KLayout-333333?style=flat-square" alt="KLayout">
+<img src="https://img.shields.io/badge/Vivado-E01F27?style=flat-square&logo=xilinx&logoColor=white" alt="Xilinx Vivado">
+<img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white" alt="MATLAB">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 </p>
 
-Altium Designer · KiCad · KLayout · Xilinx Vivado
-Brand icons above use Simple Icons where an icon is available; product-specific tools are represented by labeled badges where a suitable maintained brand icon is not available. Simple Icons documents its CDN usage and supported icon library. 
-
-08 — TECHNOLOGY NODES
-        ┌─────────────────────────────────────┐
-        │          CMOS TECHNOLOGIES          │
-        ├─────────────────────────────────────┤
-        │                                     │
-        │  GPDK45       → 45 nm               │
-        │  GPDK090      → 90 nm               │
-        │  GPDK180      → 180 nm              │
-        │  TSMC 130 nm  → 130 nm              │
-        │  SkyWater 130 → 130 nm              │
-        │                                     │
-        └─────────────────────────────────────┘
-09 — CUSTOM ANALOG LAYOUT
-                 CIRCUIT SPECIFICATION
-                          │
-                          ▼
-                 TRANSISTOR SIZING
-                          │
-                          ▼
-                       BIASING
-                          │
-                          ▼
-                   CUSTOM LAYOUT
-                          │
-             ┌────────────┼────────────┐
-             ▼            ▼            ▼
-          Matching     Symmetry    Common-Centroid
-             │            │            │
-             └────────────┼────────────┘
-                          ▼
-                       DRC / ERC
-                          │
-                          ▼
-                         LVS
-                          │
-                          ▼
-                         PEX
-                          │
-                          ▼
-                POST-LAYOUT SIMULATION
-Layout Focus
+05 · Technology & Verification
+Technology nodes
+GPDK45 · GPDK090 · GPDK180 · TSMC 130 nm · SkyWater 130
+Layout / verification
 Custom Analog Layout · Device Matching · Symmetry · Common-Centroid · DRC · ERC · LVS · PEX
-10 — RTL TO GDSII EXPOSURE
-IC Design: RTL to GDSII Implementation
-Defence Institute of Advanced Technology
-November 2025
-Although my primary focus is analog IC design, I have also worked through a complete introductory digital implementation flow.
-RTL
- │
- ▼
-VCS
- │
- ▼
-VERDI / NOVAS
- │
- ▼
-DESIGN COMPILER
- │
- ▼
-FLOORPLAN
- │
- ▼
-POWER GRID
- │
- ▼
-PLACEMENT
- │
- ▼
-CTS
- │
- ▼
-ROUTING
- │
- ▼
-PRIMETIME
- │
- ▼
-GDSII
-Tools
-Synopsys VCS · VERDI/NOVAS · Design Compiler · ICC2 · PrimeTime
-11 — EDUCATION
+Simulation
+DC · AC · Transient · Noise · Operating Point · Post-Layout
+06 · Education
 Degree	Institute	Period	Result
-M.Tech — Electronics Engineering	Defence Institute of Advanced Technology (DU), DRDO	Jul 2024 – Jun 2026	CGPA 6.62
-B.Tech — Electronics & Communication Engineering	Cooch Behar Government Engineering College	Aug 2020 – Jul 2024	CGPA 8.23
-XII — Science (PCMB)	Malda Zilla School	Apr 2018 – Mar 2020	80%
+M.Tech — Electronics Engineering	Defence Institute of Advanced Technology (DU), DRDO	2024–2026	CGPA 6.62
+B.Tech — Electronics & Communication Engineering	Cooch Behar Government Engineering College	2020–2024	CGPA 8.23
+XII — Science (PCMB)	Malda Zilla School	2018–2020	80%
 
 
-M.Tech Specialization: VLSI & Embedded Systems
-12 — DESIGN PATENT
+M.Tech specialization: VLSI & Embedded Systems
+07 · RTL → GDSII Exposure
+DIAT · November 2025
+Worked through the implementation flow using:
+VCS → VERDI/NOVAS → Design Compiler → ICC2 → PrimeTime → GDSII
+This complements my primary analog focus with an understanding of the broader semiconductor implementation flow.
+08 · Patent & Certifications
+Design Patent
 Next-Generation AI Device for Cloud-Integrated Smart Data Intelligence
-Design No.     : 496442-001
-Journal No.    : 23/2026
-Journal Date   : 05/06/2026
-Status         : Design Accepted and Published
-13 — CERTIFICATIONS
-Year	Certification / Training	Organization
-2025	IC Design: RTL to GDSII Implementation	DIAT
-2024	Advanced Entrepreneurship-Cum-Skill Development Programme	NIT Sikkim
-2023	Basic Analog IC Design Using Cadence Virtuoso Platform	NIT Sikkim
-2023	Artificial Intelligence	Remarkskill × IIT Kharagpur
-2021	Coder's Python	HOMEFLIC WeGrow
+Design No. 496442-001 · Journal No. 23/2026 · 05/06/2026
+Status: Design Accepted and Published
+Certifications
+- IC Design: RTL to GDSII Implementation — DIAT, 2025
+- Advanced Entrepreneurship-Cum-Skill Development Programme — NIT Sikkim, 2024
+- Basic Analog IC Design Using Cadence Virtuoso Platform — NIT Sikkim, 2023
+- Artificial Intelligence — Remarkskill × IIT Kharagpur, 2023
+- Coder's Python — HOMEFLIC WeGrow, 2021
+09 · Research Interests
+Analog IC Design
+├── CMOS Analog Circuits
+├── PLL / VCO / PFD
+├── Frequency Synthesizers
+├── High-Speed Clocking
+├── Low-Noise Circuits
+├── Transistor-Level Design
+├── Custom Analog Layout
+└── Physical Verification
+10 · Currently Building
+A stronger public portfolio of reproducible IC-design work.
+The goal is to turn simulation experience into clearly documented engineering repositories containing:
+- circuit architecture
+- design equations
+- transistor sizing
+- simulation methodology
+- results
+- layout methodology
+- verification results
+- post-layout comparison
+11 · GitHub
+<div align="center">
+
+<a href="https://github.com/iamsoumyajitmandal">
+<img src="https://github-readme-stats.vercel.app/api?username=iamsoumyajitmandal&show_icons=true&hide_border=true&theme=transparent&title_color=00E5FF&text_color=8B949E&icon_color=00E5FF&rank_icon=github" height="165" alt="GitHub statistics">
+</a>
+
+<a href="https://github.com/iamsoumyajitmandal">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsoumyajitmandal&layout=compact&hide_border=true&theme=transparent&title_color=00E5FF&text_color=8B949E" height="165" alt="Top languages">
+</a>
+
+</div>
+
+<div align="center">
+
+DESIGN → SIMULATE → LAYOUT → VERIFY
+
+<a href="https://soumyajitmandal.onrender.com">
+<img src="https://img.shields.io/badge/🌐%20PORTFOLIO-00E5FF?style=for-the-badge&logoColor=black" alt="Portfolio">
+</a>
+<a href="https://linkedin.com/in/soumyajitmandal001/">
+<img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="mailto:contact.isoumyajitmandal@gmail.com">
+<img src="https://img.shields.io/badge/CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
 
 
-14 — COURSEWORK
-Analog & Mixed Mode Signal VLSI Design
-CAD for VLSI Circuits
-RFIC Design
-EMI / EMC Design
-Digital IC Design
-Digital System Design using FPGA
+
+
+<sub>Soumyajit Mandal · Analog IC Design · VLSI</sub>
+</div>
