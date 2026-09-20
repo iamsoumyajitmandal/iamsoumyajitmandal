@@ -1,601 +1,391 @@
-# Hi, I'm Soumyajit Mandal 👋
+from pathlib import Path
+from textwrap import dedent
 
-### Analog VLSI | Analog IC Design | PLL & Mixed-Signal Circuit Design
+readme = dedent(r'''\
+# <div align="center">SOUMYAJIT MANDAL</div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Analog+VLSI+%7C+Analog+IC+Design;PLL+%7C+VCO+%7C+PFD+%7C+Charge+Pump;Cadence+Virtuoso+%7C+SpectreRF;M.Tech+in+VLSI+%26+Embedded+Systems" alt="Typing SVG" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-  </a>
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-</p>
+### Analog & Mixed-Signal IC Design • VLSI • Custom Layout • PLL/VCO/PFD
 
----
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Analog+IC+Design+%7C+VLSI+%7C+Custom+Layout;PLL+%7C+VCO+%7C+PFD+%7C+Transistor-Level+Design;Cadence+Virtuoso+%7C+Spectre+%7C+Analog+Simulation;Designing+circuits+from+schematic+to+silicon-ready+validation" alt="Typing SVG" />
 
-## 👨‍💻 About Me
+[![Portfolio](https://img.shields.io/badge/Portfolio-soumyajitmandal.onrender.com-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://soumyajitmandal.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Soumyajit%20Mandal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/soumyajitmandal001/)
+[![Email](https://img.shields.io/badge/Email-contact.isoumyajitmandal%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact.isoumyajitmandal@gmail.com)
 
-I am an **M.Tech student specializing in VLSI & Embedded Systems**, with a strong focus on **Analog VLSI, Analog IC Design, and mixed-signal circuit design**.
-
-My primary interest lies in designing and analyzing transistor-level circuits for high-performance integrated systems, particularly **Phase-Locked Loops (PLLs), Voltage-Controlled Oscillators (VCOs), Phase-Frequency Detectors (PFDs), charge pumps, loop filters, and frequency-divider architectures**.
-
-I enjoy working close to the transistor level — from **circuit architecture and device sizing to simulation, performance analysis, and physical implementation**.
-
-### 🔬 Current Focus
-
-* Analog IC Design
-* Analog VLSI
-* PLL-based frequency synthesis
-* Low-jitter and low-noise VCO design
-* High-speed Phase-Frequency Detectors
-* Charge Pump and Loop Filter design
-* Mixed-Signal Circuit Design
-* CMOS transistor-level design
-* PVT and corner analysis
-* Post-layout verification
-* SpectreRF-based RF/analog simulations
+</div>
 
 ---
 
-## 🎓 Education
-
-### M.Tech — Electronics Engineering
-
-**VLSI & Embedded Systems**
-
-**Defence Institute of Advanced Technology (DIAT), Pune**
-2024 – 2026
-
-Focused on:
-
-* Analog VLSI
-* CMOS Analog Circuit Design
-* VLSI Design
-* Embedded Systems
-* RF/Mixed-Signal Circuit Design
-* Semiconductor Device Modeling
-* IC Design & Verification
-
-### B.Tech — Electronics & Communication Engineering
-
-**Cooch Behar Government Engineering College (CGEC)**
-2019 – 2024
-
-Major academic interests:
-
-* Analog Electronics
-* Digital Electronics
-* VLSI Design
-* Communication Systems
-* Microelectronics
-* Embedded Systems
-
----
-
-# 🔬 Research & Thesis
-
-## Enhanced-Stability PLL Architecture for Fine-Resolution Multi-Gigahertz Frequency Synthesis Using Advanced Phase Detection
-
-My current research focuses on the design and simulation of an **analog PLL architecture for multi-gigahertz frequency synthesis** using CMOS technology.
-
-### Target Architecture
+## ⚡ About Me
 
 ```text
-                 ┌─────────────────┐
-                 │ Reference Clock │
-                 │    125 MHz      │
-                 └────────┬────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │      PFD        │
-                 │ Phase/Frequency │
-                 │    Detector     │
-                 └────────┬────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │   Charge Pump   │
-                 └────────┬────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │   Loop Filter   │
-                 │  2nd Order LPF  │
-                 └────────┬────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │       VCO       │
-                 │ 2.4 – 2.5 GHz   │
-                 └────────┬────────┘
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │  Frequency      │
-                 │  Divider N = 20 │
-                 └────────┬────────┘
-                          │
-                          └──────────────► PFD
+                    ╔══════════════════════════════════════════════════════╗
+                    ║                 SOUMYAJIT MANDAL                     ║
+                    ╠══════════════════════════════════════════════════════╣
+                    ║  Analog IC Design        →  PLL / VCO / PFD         ║
+                    ║  Circuit Level           →  CMOS / Transistor Level ║
+                    ║  Physical Design         →  Custom Analog Layout    ║
+                    ║  Verification            →  DRC / ERC / LVS / PEX  ║
+                    ║  Simulation              →  DC / AC / Tran / Noise ║
+                    ║  Target                  →  Silicon-Ready Design   ║
+                    ╚══════════════════════════════════════════════════════╝
 ```
 
-### Technology
+> Aspiring **Analog & Mixed-Signal IC Design and Physical Design Engineer** with a strong interest in transistor-level CMOS circuit design, custom layout, and silicon-ready validation. My work focuses on device sizing, biasing, layout matching, connectivity integrity, parasitic-aware post-layout analysis, and power-performance trade-offs.
 
-* **CMOS Technology:** GPDK90
-* **Primary EDA:** Cadence Virtuoso
-* **Simulator:** Cadence Spectre
-* **RF Analysis:** SpectreRF
-* **Design Methodology:** Transistor-level analog design
-* **Target VCO Frequency:** ~2.4–2.5 GHz
-* **Reference Frequency:** 125 MHz
-* **Division Ratio:** N = 20
+I completed my **M.Tech in Electronics Engineering (VLSI & Embedded Systems) at Defence Institute of Advanced Technology (DIAT), DRDO**, following a **B.Tech in Electronics & Communication Engineering from Cooch Behar Government Engineering College**.
 
-### Key Design Blocks
-
-* TSPC-based Phase-Frequency Detector
-* Multi-stage reset architecture
-* Dead-zone reduction
-* Charge Pump
-* Second-order Loop Filter
-* Voltage-Controlled Ring Oscillator
-* High-speed frequency divider
-* Injection-Locked Frequency Divider exploration
-* PVT and transient analysis
-* Phase-noise and jitter analysis
-
-### Current Research Goals
-
-* Reduce PLL jitter
-* Improve phase-noise performance
-* Minimize PFD dead zone
-* Improve UP/DN current matching
-* Improve VCO tuning characteristics
-* Improve PLL stability
-* Achieve reliable frequency locking
-* Analyze PVT variations
-* Optimize power-performance trade-offs
+My core project work includes **PLL, VCO and PFD architectures**, analog CMOS building blocks, transistor-level simulation, custom analog layout, and physical verification.
 
 ---
 
-# 🚀 Featured Projects
+## 🧠 Core Focus
 
-## 🔵 PLL Design for Multi-Gigahertz Frequency Synthesis
+```text
+Analog IC Design       ████████████████████████  Transistor-Level CMOS
+Mixed-Signal Design    ████████████████████████  PLL / VCO / PFD
+Custom Layout          ████████████████████████  Matching / PEX / LVS
+Circuit Simulation     ████████████████████████  DC / AC / Transient / Noise
+Physical Verification  ████████████████████████  DRC / ERC / LVS
+ASIC Flow              ██████████████████░░░░░░  RTL → GDSII
+```
 
-**Analog VLSI | Cadence Virtuoso | GPDK90**
-
-A transistor-level PLL architecture designed for high-frequency synthesis.
-
-### Main Components
-
-* Phase-Frequency Detector
-* Charge Pump
-* Loop Filter
-* Voltage-Controlled Oscillator
-* Frequency Divider
-* Feedback Network
-
-### Design Targets
-
-| Parameter           |                Target |
-| ------------------- | --------------------: |
-| Reference Frequency |               125 MHz |
-| VCO Frequency       |         2.4 – 2.5 GHz |
-| Divider Ratio       |                    20 |
-| Technology          |            90 nm CMOS |
-| Design Type         | Analog / Mixed-Signal |
+- Analog & Mixed-Signal IC Design
+- Transistor-Level CMOS Design
+- PLL / VCO / PFD Architectures
+- Frequency Synthesizers & Clocking Circuits
+- Custom Analog Layout & Device Matching
+- DRC / ERC / LVS / PEX
+- Post-Layout Simulation
+- ASIC Design Fundamentals
+- Power / Performance / Noise Trade-offs
 
 ---
 
-## 🔵 High-Performance PFD Design
+# 🔬 Featured Projects
 
-**Cadence Virtuoso | CMOS | TSPC**
+## 01. Enhanced-Stability High-Frequency PLL Architecture
 
-Designed a high-speed Phase-Frequency Detector with emphasis on:
+**Defence Institute of Advanced Technology (DIAT), DRDO**  
+`August 2025 – May 2026`
 
-* Dead-zone elimination
-* Fast reset operation
-* UP/DN pulse generation
-* Phase-error detection
-* Reduced reset delay
-* Improved high-frequency operation
+Designed and verified a CMOS PLL for fine-resolution **2.5–3.8 GHz frequency synthesis** using **Cadence Virtuoso / Spectre** in **GPDK090** technology.
 
-A **multi-stage reset/buffer architecture** was explored to reduce the effective dead zone and improve switching behavior.
+### Architecture
 
----
+```text
+ Reference Clock
+       │
+       ▼
+   ┌─────────┐
+   │   PFD   │────── UP / DOWN
+   └────┬────┘          │
+        │               ▼
+        │          ┌──────────┐
+        │          │ Charge   │
+        │          │   Pump   │
+        │          └────┬─────┘
+        │               │
+        │               ▼
+        │          ┌──────────┐
+        │          │  Loop    │
+        │          │  Filter  │
+        │          └────┬─────┘
+        │               │ VCTRL
+        │               ▼
+        │          ┌──────────┐
+        │          │   VCO    │──────► High-Speed Clock
+        │          └────┬─────┘
+        │               │
+        │               ▼
+        └─────────── Divider
+```
 
-## 🔵 Voltage-Controlled Ring Oscillator
+### Key Work
+- Dead-zone-free PFD with balanced latch paths.
+- Optimized reset timing and buffered UP/DOWN outputs for small phase errors.
+- Matched charge pump and passive loop filter.
+- Source-degenerated current-starved VCRO.
+- Feedback divider for closed-loop frequency control.
+- Transistor-level simulation and PLL lock verification.
 
-**Cadence Virtuoso | GPDK90**
+### Reported Results
 
-Designed and analyzed a multi-stage CMOS ring oscillator for PLL applications.
-
-### Focus Areas
-
-* Oscillation frequency
-* Tuning range
-* Control-voltage sensitivity
-* Power consumption
-* Phase noise
-* Jitter
-* Frequency stability
-
-The VCO was evaluated over multiple control voltages to understand the relationship between tuning voltage and oscillation frequency.
-
----
-
-## 🔵 PFD & VCO Design for PLL Applications
-
-**B.Tech Final-Year Project**
-
-### Project
-
-**Design of High-Performance Phase Frequency Detectors and Voltage Controlled Oscillators for PLL Applications Using Cadence Virtuoso**
-
-### Technology
-
-* CMOS GPDK45
-* Cadence Virtuoso
-
-### Work Included
-
-* PFD architecture design
-* Dead-zone reduction
-* VCO architecture
-* Transistor sizing
-* Transient simulation
-* Frequency analysis
-* Performance comparison
-* PLL-oriented circuit optimization
-
----
-
-## 🔵 Analog IC Design Training
-
-**NIT Sikkim**
-
-Hands-on training in analog integrated circuit design using industry-standard circuit design methodologies.
-
-### Topics Covered
-
-* CMOS transistor fundamentals
-* Analog circuit design
-* Current mirrors
-* Differential amplifiers
-* Operational amplifiers
-* Frequency response
-* Biasing
-* Device sizing
-* Cadence-based simulation
+| Metric | Result |
+|---|---:|
+| Technology | GPDK090 |
+| Target frequency range | 2.5–3.8 GHz |
+| Closed-loop locking | ~2.506 GHz |
+| Frequency ripple | 4.013 MHz |
+| Normalized ripple | 0.160% |
+| Output duty cycle | 49.8% |
+| RMS jitter | 70.98 fs |
+| Peak-to-peak jitter | 1.588 ps |
 
 ---
 
-## 🔵 RTL-to-GDSII Digital Design Flow
+## 02. High-Performance PFDs & VCOs for PLL Applications
 
-Although my primary specialization is analog VLSI, I have also worked with the complete digital implementation flow.
+**Cooch Behar Government Engineering College**  
+`July 2023 – June 2024`
 
-### Flow
+Designed and analyzed high-performance **Phase-Frequency Detectors (PFDs)** and **Voltage-Controlled Oscillators (VCOs)** at transistor level.
+
+### Highlights
+- Designed a **5-stage VCRO in 90 nm CMOS**.
+- Achieved a reported tuning range of **1.25 MHz–3 GHz**.
+- Achieved reported PFD phase noise of **−143.71 dBc/Hz at 1 MHz offset**.
+- Reduced reported lock-in time to approximately **31 ns**.
+- Investigated TSPC-based logic and optimized PFD reset behavior.
+- Validated designs through Cadence Virtuoso transistor-level simulations.
+
+---
+
+## 03. Basic Analog IC Design — Research Internship
+
+**National Institute of Technology Sikkim**  
+`July 2023 – August 2023`
+
+Worked on fundamental analog CMOS building blocks using **GPDK090** technology and Cadence Virtuoso.
+
+- Common-Source amplifiers
+- Common-Gate amplifiers
+- High-precision current mirrors
+- DC / AC / transient analysis
+- Operating-point verification
+- Gain and bandwidth analysis
+- Bias-condition evaluation
+- Analog circuit optimization and documentation
+
+---
+
+## 04. IC Design: RTL to GDSII Implementation
+
+**Defence Institute of Advanced Technology (DIAT), DRDO**  
+`November 2025`
+
+Executed a complete RTL-to-GDSII implementation flow for a **4-bit full adder**.
 
 ```text
 RTL
- ↓
-Synthesis
- ↓
-Gate-Level Netlist
- ↓
+ │
+ ▼
+VCS Verification
+ │
+ ▼
+Design Compiler
+ │
+ ▼
 Floorplanning
- ↓
+ │
+ ▼
+Power Planning
+ │
+ ▼
 Placement
- ↓
-Clock Tree Synthesis
- ↓
+ │
+ ▼
+CTS
+ │
+ ▼
 Routing
- ↓
-STA
- ↓
-GDSII
+ │
+ ▼
+PrimeTime STA
+ │
+ ▼
+GDSII Signoff
 ```
 
-### Tools
-
-* Synopsys VCS
-* Verdi
-* Design Compiler
-* IC Compiler II
-* PrimeTime
+Tools included **Synopsys VCS, VERDI/NOVAS, Design Compiler, ICC2 and PrimeTime**.
 
 ---
 
-# 🛠️ Technical Skills
+# 🛠️ Software & EDA Arsenal
 
-## 🔬 Analog / VLSI
+### Analog / SPICE / Custom IC Design
 
-* Analog IC Design
-* Analog VLSI
-* CMOS Circuit Design
-* Transistor-Level Design
-* Mixed-Signal Circuit Design
-* PLL Design
-* VCO Design
-* PFD Design
-* Charge Pump Design
-* Loop Filter Design
-* Frequency Divider Design
-* Current Mirrors
-* Differential Amplifiers
-* Operational Amplifiers
-* CMOS Inverters
-* Device Sizing
-* Biasing
-* PVT Analysis
+<p align="center">
+  <img src="https://img.shields.io/badge/Cadence%20Virtuoso-E31837?style=for-the-badge&logo=cadence&logoColor=white" alt="Cadence Virtuoso"/>
+  <img src="https://img.shields.io/badge/Spectre-8B0000?style=for-the-badge&logoColor=white" alt="Cadence Spectre"/>
+  <img src="https://img.shields.io/badge/LTspice-B71C1C?style=for-the-badge&logo=analogdevices&logoColor=white" alt="LTspice"/>
+  <img src="https://img.shields.io/badge/PSpice-CC0000?style=for-the-badge&logo=cadence&logoColor=white" alt="PSpice"/>
+</p>
 
----
+### Synopsys Digital / Physical Design
 
-## 🧰 EDA & Simulation Tools
+<p align="center">
+  <img src="https://img.shields.io/badge/VCS-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="Synopsys VCS"/>
+  <img src="https://img.shields.io/badge/VERDI%20%2F%20NOVAS-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="VERDI NOVAS"/>
+  <img src="https://img.shields.io/badge/Design%20Compiler-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="Design Compiler"/>
+  <img src="https://img.shields.io/badge/ICC2-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="ICC2"/>
+  <img src="https://img.shields.io/badge/PrimeTime-111111?style=for-the-badge&logo=synopsys&logoColor=white" alt="PrimeTime"/>
+</p>
 
-### Cadence
+### PCB / Layout / FPGA
 
-* Cadence Virtuoso
-* Virtuoso Schematic Editor
-* Virtuoso Layout
-* Spectre
-* SpectreRF
-* PSS
-* PNoise
-* PXF
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=altium" height="48" alt="Altium Designer"/>
+  <img src="https://skillicons.dev/icons?i=kicad" height="48" alt="KiCad"/>
+  <img src="https://skillicons.dev/icons?i=vscode" height="48" alt="VS Code"/>
+</p>
 
-### Other Tools
+**Also:** KLayout • Xilinx Vivado • MATLAB • Python
 
-* LTspice
-* PSpice
-* MATLAB
-* Synopsys VCS
-* Synopsys Verdi
-* Design Compiler
-* ICC2
-* PrimeTime
-* Xilinx Vivado
-* Calibre
+> **Icon note:** specialized EDA products such as Cadence Virtuoso, PSpice and individual Synopsys tools do not have a consistent open icon set comparable to programming languages. The badges above therefore use brand/logo parameters where available and otherwise retain the product's official name rather than inventing unofficial icons.
 
 ---
 
-# 💻 Programming & Scripting
+# 🧩 Technology Nodes
 
 ```text
-Python
-MATLAB
-Verilog HDL
-C
-Bash / Linux Shell
-HTML
-CSS
-JavaScript
+GPDK45       → 45 nm
+GPDK090      → 90 nm
+GPDK180      → 180 nm
+TSMC 130 nm  → 130 nm
+SkyWater 130 → 130 nm
 ```
 
-I primarily use programming and scripting for:
+---
 
-* Simulation automation
-* Data processing
-* Plot generation
-* Design calculations
-* Hardware description
-* Linux-based EDA workflows
-* Tool automation
+# 📐 Layout & Verification
+
+```text
+                    CUSTOM ANALOG LAYOUT
+                            │
+             ┌──────────────┼──────────────┐
+             ▼              ▼              ▼
+       Device Matching   Common Centroid   Symmetry
+             │              │              │
+             └──────────────┼──────────────┘
+                            ▼
+                         DRC / ERC
+                            │
+                            ▼
+                           LVS
+                            │
+                            ▼
+                           PEX
+                            │
+                            ▼
+                 Post-Layout Simulation
+```
+
+**Focus:** Custom Analog Layout • Device Matching • DRC • ERC • LVS • PEX • Parasitic-Aware Simulation
 
 ---
 
-# 📊 Design & Analysis
+# 🎓 Education
 
-I am particularly interested in understanding circuits through quantitative performance metrics rather than relying only on nominal simulations.
+| Degree | Institute | Period | Result |
+|---|---|---|---:|
+| **M.Tech — Electronics Engineering** | DIAT (DU), DRDO | Jul 2024 – Jun 2026 | CGPA 6.62 |
+| **B.Tech — Electronics & Communication Engineering** | Cooch Behar Government Engineering College | Aug 2020 – Jul 2024 | CGPA 8.23 |
+| **Higher Secondary — Science (PCMB)** | Malda Zilla School | Apr 2018 – Mar 2020 | 80% |
 
-### Important Metrics
-
-* Gain
-* Bandwidth
-* GBW
-* Phase Margin
-* Power Consumption
-* Slew Rate
-* Noise
-* Phase Noise
-* Jitter
-* Lock Time
-* Tuning Range
-* Current Matching
-* PVT Robustness
-* Stability
-* Frequency Accuracy
+**M.Tech Specialization:** VLSI & Embedded Systems
 
 ---
 
-# 🧠 Areas of Interest
+# 🏆 Design Patent
+
+### Next-Generation AI Device for Cloud-Integrated Smart Data Intelligence
+
+`Design No. 496442-001` • `Journal No. 23/2026` • `Journal Date: 05/06/2026`
+
+**Status:** Design Accepted and Published
+
+---
+
+# 📜 Certifications & Training
+
+- **IC Design: RTL to GDSII Implementation** — DIAT, Nov 2025
+- **Advanced Entrepreneurship-Cum-Skill Development Programme (E-SDP)** — NIT Sikkim, Mar 2024
+- **Basic Analog IC Design Using Cadence Virtuoso Platform** — NIT Sikkim, Aug 2023
+- **Artificial Intelligence** — Remarkskill & IIT Kharagpur, Jan 2023
+- **Coder's Python** — HOMEFLIC WeGrow, Jun 2021
+
+---
+
+# 📚 Relevant Coursework
+
+- Analog & Mixed Mode Signal VLSI Design
+- CAD for VLSI Circuits
+- RFIC Design
+- EMI/EMC Design
+- Digital IC Design
+- Digital System Design using FPGA
+
+---
+
+# 🌐 Languages
+
+| Language | Proficiency |
+|---|---|
+| English | Proficient |
+| Bengali | Native |
+| Hindi | Fluent |
+
+---
+
+# 📊 GitHub Analytics
+
+> Replace `YOUR_GITHUB_USERNAME` below with your GitHub username. Your portfolio source does not expose a GitHub username, so I have intentionally not guessed it.
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="180" alt="Top Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+</p>
+
+---
+
+# 🔭 Current Direction
 
 ```text
 Analog IC Design
       │
-      ├── CMOS Analog Circuits
-      │
-      ├── PLLs
-      │    ├── PFD
-      │    ├── Charge Pump
-      │    ├── Loop Filter
-      │    ├── VCO
-      │    └── Frequency Divider
-      │
-      ├── RF / Mixed-Signal ICs
-      │
-      ├── Low-Noise Circuit Design
-      │
-      ├── High-Speed Circuit Design
-      │
-      └── Semiconductor Device & Circuit Modeling
+      ├── CMOS Transistor-Level Design
+      ├── PLL / VCO / PFD
+      ├── Frequency Synthesis
+      ├── Low-Noise / High-Speed Circuits
+      ├── Custom Analog Layout
+      ├── DRC / ERC / LVS / PEX
+      └── Silicon-Ready Validation
 ```
 
----
-
-# 📚 Currently Learning
-
-* Advanced PLL architectures
-* Low-jitter PLL design
-* Low-phase-noise VCO design
-* Injection-Locked Frequency Dividers
-* SpectreRF PSS/PNoise analysis
-* PVT and Monte Carlo analysis
-* Analog layout techniques
-* Common-centroid layout
-* Matching techniques
-* Parasitic-aware circuit design
-* Post-layout simulation
-* Advanced CMOS analog design methodologies
+I am particularly interested in opportunities involving **Analog IC Design, Mixed-Signal IC Design, Custom Layout, Physical Verification, VLSI Research, and transistor-level circuit development**.
 
 ---
 
-# 🎯 Career Interests
+# 📫 Let's Connect
 
-I am particularly interested in opportunities involving:
+<div align="center">
 
-* **Analog IC Design**
-* **Analog VLSI**
-* **Mixed-Signal IC Design**
-* **PLL / Clocking Circuits**
-* **RFIC Design**
-* **Memory Circuit Design**
-* **Custom IC Design**
-* **Circuit Design & Verification**
-* **Analog Layout**
-* **Semiconductor R&D**
+**Interested in Analog IC Design, VLSI, or collaborative research?**
 
-My long-term goal is to work on **high-performance analog and mixed-signal integrated circuits**, with particular interest in clocking, frequency synthesis, RF interfaces, and transistor-level circuit design.
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Soumyajit%20Mandal-00D9FF?style=for-the-badge)](https://soumyajitmandal.onrender.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/soumyajitmandal001/)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact.isoumyajitmandal@gmail.com)
+
+</div>
 
 ---
 
-# 📊 GitHub Statistics
+<div align="center">
 
-<p align="center">
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=iamsoumyajitmandal&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true"
-    height="180"
-    alt="Soumyajit's GitHub Stats"
-  />
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamsoumyajitmandal&layout=compact&langs_count=8&hide_border=true"
-    height="180"
-    alt="Soumyajit's Top Languages"
-  />
-</p>
+### `DESIGN • SIMULATE • LAYOUT • VERIFY • INNOVATE`
 
----
+<sub>© Soumyajit Mandal • Analog IC Design & VLSI</sub>
 
-# 🔥 GitHub Streak
+</div>
+''')
 
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com/?user=iamsoumyajitmandal&hide_border=true"
-    alt="Soumyajit's GitHub Streak"
-  />
-</p>
-
----
-
-# 📈 GitHub Activity
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=iamsoumyajitmandal&hide_border=true&area=true"
-    alt="Soumyajit's GitHub Activity Graph"
-  />
-</p>
-
----
-
-# 📊 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=iamsoumyajitmandal&theme=github-compact&hide_border=true" />
-</p>
-
----
-
-# 📂 What You'll Find Here
-
-My GitHub repositories contain projects, experiments, simulations, and design work related to:
-
-```text
-📁 Analog VLSI
-📁 CMOS Circuit Design
-📁 PLL Design
-📁 VCO Design
-📁 PFD Design
-📁 Cadence Virtuoso
-📁 GPDK90 / GPDK45
-📁 MATLAB
-📁 Verilog HDL
-📁 FPGA
-📁 Digital VLSI
-📁 Linux / EDA Automation
-📁 Personal Projects
-```
-
-I aim to document my projects with:
-
-* Design objectives
-* Circuit architecture
-* Schematics
-* Simulation setup
-* Design equations
-* Device sizing
-* Results
-* Waveforms
-* Performance analysis
-* Conclusions
-
----
-
-# 🤝 Let's Connect
-
-I'm open to connecting with:
-
-* Analog IC designers
-* VLSI engineers
-* Semiconductor researchers
-* PhD researchers
-* Professors
-* Industry professionals
-* VLSI students
-* Open-source hardware contributors
-
-### 📫 Contact
-
-**LinkedIn:**
-https://www.linkedin.com/
-
-**GitHub:**
-https://github.com/iamsoumyajitmandal
-
-**Portfolio:**
-https://soumyajitmandal.onrender.com/
-
----
-
-## ⚡ A Little More About Me
-
-> I like understanding circuits from the transistor level up.
-
-Whether it is a single CMOS inverter or a multi-gigahertz PLL, I enjoy breaking the system down into fundamental circuit blocks, understanding the trade-offs, designing the architecture, and validating the result through simulation.
-
-My goal is simple:
-
-**Design circuits that work — understand why they work — and make them better.**
-
----
-
-<p align="center">
-  <b>Thanks for visiting my profile! 🚀</b>
-</p>
-
-<p align="center">
-  <i>Analog circuits • VLSI • Research • Design • Silicon</i>
-</p>
+out = Path("/mnt/data/README_Soumyajit_Mandal.md")
+out.write_text(readme, encoding="utf-8")
+print(out)
